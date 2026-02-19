@@ -212,3 +212,21 @@ h1{
     backdrop-filter:blur(22px);
     box-shadow:0 25px 90px rgba(0,0,0,0.85);
 }
+
+/* ===== BACK TO HOME LINK ===== */
+
+.back-home{
+    position:absolute;
+    left:30px;
+    top:30px;
+    color:var(--electric-orange);
+    text-decoration:none;
+    font-weight:600;
+    letter-spacing:0.5px;
+    transition:0.25s ease;
+}
+
+.back-home:hover{
+    color:white;
+    text-shadow:0 0 12px var(--electric-orange);
+}
